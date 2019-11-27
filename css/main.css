@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
@@ -46,7 +46,11 @@ header p {
 
 @media only screen and (min-width: 38em) {
 
-  img {
+    html {
+      margin: 0;
+    }
+
+   .img-flex{
     position: relative;
     }
 
@@ -65,12 +69,43 @@ header p {
 
 @media only screen and (min-width: 38em) {
 
-  img {
-    width:110%;
+  html {
+    margin: 0;
+  }
+
+  .img-flex {
+    width:100%;
   }
 
   header {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0px solid;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 9rem;
+    left: 55%;
     width: 40%;
   }
 
+  header h2{
+    font-size: 1.2rem;
+  }
+
+  header p{
+    font-weight: lighter;
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  header h2{
+    font-size: 1.3rem;
+  }
+
+  header p{
+    font-weight: lighter;
+    font-size: 1rem;
 }

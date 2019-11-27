@@ -47,7 +47,7 @@ header p {
 @media only screen and (min-width: 38em) {
 
   img {
-    position: absolute;
+    position: relative;
     }
 
   header {
@@ -55,9 +55,9 @@ header p {
     background-color: rgba(0, 0, 0, 0.3);
     border: 0px solid;
     border-radius: 1rem;
-    position: relative;
-    top: 9.5rem;
-    transform: translate(60%);
+    position: absolute;
+    bottom: 9rem;
+    left: 65%;
     width: 60%;
   }
 
@@ -65,9 +65,12 @@ header p {
 
 @media only screen and (min-width: 38em) {
 
-  html {
-    margin: 0;
-    padding: 0;
+  img {
+    width:110%;
+  }
+
+  header {
+    width: 40%;
   }
 
 }

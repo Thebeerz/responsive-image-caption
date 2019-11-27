@@ -45,7 +45,7 @@ header p {
 }
 
 @media only screen and (min-width: 38em) {
-
+/* 400 or 320 */
     html {
       margin: 0;
     }
@@ -68,9 +68,10 @@ header p {
 }
 
 @media only screen and (min-width: 38em) {
-
+/* 680 */
   html {
-    margin: 0;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .img-flex {
@@ -83,44 +84,40 @@ header p {
     border: 0px solid;
     border-radius: 1rem;
     position: absolute;
-    bottom: 9rem;
-    left: 55%;
-    width: 40%;
-  }
-
-  header h2{
-    font-size: 1.2rem;
-  }
-
-  header p{
-    font-weight: lighter;
-    font-size: 1rem;
+    bottom: 18rem;
+    left: 39%;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  header h2{
-    font-size: 1.3rem;
+/* 960 */
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
-  header p{
-    font-weight: lighter;
-    font-size: 1rem;
+  header {
+    bottom: 7rem;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
-
-  header h2{
-    font-size: 1.3rem;
+/* 1440 */
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 
-  header p{
-    font-weight: lighter;
-    font-size: 1rem;
+  header {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    border: 0px solid;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 18rem;
+    left: 39%;
+    width: 30%;
   }
 
 }

@@ -63,7 +63,6 @@ header p {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 1rem;
     position: absolute;
-    bottom: 17rem;
     left: 35%;
     width: 60%;
   }
@@ -87,7 +86,7 @@ header p {
   header {
     position: absolute;
     padding: .4rem;
-    bottom: 17rem;
+    bottom: 63rem;
     left: 39%;
   }
 

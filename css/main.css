@@ -45,32 +45,22 @@ header p {
   font-size: 1rem;
 }
 
-@media only screen and (min-width: 38em) {
-  /* 400 or 320 */
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-    color: #fff;
-  }
-
-  .img-flex {
-    position: relative;
-  }
+/* @media only screen and (min-width: em) {
+  400 or 320
 
   header {
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
     border-radius: 1rem;
     position: absolute;
+    top: 4rem;
     left: 35%;
     width: 60%;
   }
 
-}
+} */
 
 @media only screen and (min-width: 38em) {
-  /* 608 */
 
   html {
     font-size: 110%;
@@ -86,8 +76,12 @@ header p {
   header {
     position: absolute;
     padding: .4rem;
-    bottom: 63rem;
-    left: 39%;
+    top: 7.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 1rem;
+    right: 1rem;
+    width: 57%;
   }
 
   header p {
@@ -105,7 +99,8 @@ header p {
   }
 
   header {
-    bottom: 7rem;
+    /* position: absolute; */
+    top: 14rem;
   }
 
 }
@@ -118,7 +113,9 @@ header p {
   }
 
   header {
-    bottom: 18rem;
+    top: -11rem;
+    left: 46rem;
+    width: 30%;
   }
 
 }
